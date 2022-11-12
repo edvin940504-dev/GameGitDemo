@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Console;
 
 namespace GameGitDemo
 {
@@ -10,10 +11,10 @@ namespace GameGitDemo
     {
         public void Run()   // a method we will call when we want the game to run
         {
-            Console.WriteLine("=== Welcome to the game ===");
+            WriteLine("=== Welcome to the game ===");
 
-            Console.WriteLine("\nPress any key to exit...");
-            Console.ReadKey(true);
+            WriteLine("\nPress any key to exit...");
+            ReadKey(true);
         }
     }
 }
