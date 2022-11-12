@@ -11,6 +11,7 @@ namespace GameGitDemo
     {
         public void Run()   // a method we will call when we want the game to run
         {
+            Title = "My Game";
             WriteLine("=== Welcome to the game ===");
 
             Write("What is your name?");
